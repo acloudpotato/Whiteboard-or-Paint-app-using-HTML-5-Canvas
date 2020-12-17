@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+   <body>
+      <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" 
+            rel="stylesheet">
+    <div> 
+      <div style="background-color: #55ffff; border: 1px solid blanchedalmond; 
+              color: white; padding: 0.5px 16px; cursor: pointer; height: 30px;
+              float:inline-end">
+
+          <button input type="button" style="background-color: rgb(66,133,244);
+              padding-bottom: -6px; text-align: center; font-size: medium;  width: 60px; height: 22px; border: black;" id="line"> Pencil </button>
+       
+          <button input type="button" style="background-color: rgb(219,68,55);
+              padding-bottom: -6px; text-align: center; font-size: medium;  width: 60px; height: 22px; border: black;" id="eraser"> Eraser </button>
+
+          <button input type="button" style="background-color: rgb(244,160,0); text-align: center; font-size: medium;  width: 60px; height: 22px;
+              " id="clear"> Clear </button>
+
+          <button input type="button" style="background-color: rgb(15,157,88); text-align: center; font-size: medium;  width: 60px; height: 22px; 
+              margin-top: 3px" ><a href="#" id="save" download="my-sketch.png">Save</a></button>
+
+          <input type="range" style="float: right; margin-right: 20px; padding-top: 6px;" id="range" value="5" min="1" max="50">
+       
+          <input type="color" style="float: right; margin-right: 20px; margin-top: 3px;" id="color">
+
+          <button input type="button" style="background-color: rgb(0, 102, 255);
+             height: 15px; width: 28px; padding-bottom: 1px; margin-top: 7px;  float: right; margin-right: 20px" id="rectangle"></button>
+      </div>
+      <div class="fixed position-absolute bottom-0 left-0 italic text-black text-sm ml-2 mt-1 
+       select-none" ><span>Abhi's Whiteboard </span>
+     </div>
+    </div> 
+      <style>
+         body {
+             margin: 0;
+         }
+      </style>
+      <canvas style="cursor: crosshair; position: fixed" id="canvas"></canvas>
+      <script src="board.js"></script>
+   </body>
+</html> 

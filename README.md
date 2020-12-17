@@ -4,7 +4,7 @@ There are lots of languages available to make a whiteboard, but I think using HT
 This is very easy to make it. there are lots of inbuilt eventListeners, functions are available, 
 which makes very easy to implement your vision and very handy. 
 
-
+![whiteboard](https://user-images.githubusercontent.com/52596897/102487368-75c14200-4090-11eb-92fe-325e30d5bca1.png)
 
 Some of the features of my whiteboard:
 
